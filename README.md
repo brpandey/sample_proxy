@@ -106,10 +106,12 @@ Returns:
   "state":"running",
   "id":"4499a6e0c2ef4b98"
 }
+```
 
 And then, later, it will POST to the callback url you supplied with a 
 request like this:
 
+```elixir
 POST http://requestb.in/1573xwm1
 Content-Type: application/json
 {
@@ -138,3 +140,6 @@ middleware
 
 
 
+:)
+
+Thanks! Bibek

@@ -29,8 +29,7 @@ use Mix.Config
 #
 #     import_config "#{Mix.env}.exs"
 
-
 config :logger, :console,
-      level: :info,
-      format: "\n$time $metadata[$level] $levelpad$message\n",
-      metadata: [:module]
+  level: :info,
+  format: "\n$time $metadata[$level] $levelpad$message\n",
+  metadata: [:module]

@@ -3,6 +3,5 @@ defmodule SampleProxyTest do
   doctest SampleProxy
 
   test "greets the world" do
-    assert SampleProxy.hello() == :world
   end
 end
